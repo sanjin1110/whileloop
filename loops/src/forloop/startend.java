@@ -1,6 +1,7 @@
+package forloop;//even num from start to end as user inputs.
 import java.util.Scanner;
 
-public class counteven {
+public class startend {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -8,11 +9,11 @@ public class counteven {
         int first = sc.nextInt();
         System.out.print("Enter ending point : ");
         int last = sc.nextInt();
-        int cout = 0;
-        for (int i=first; i<=last; i++) {
-            if (i % 2 == 0)
-                cout++;
+
+        for (int i=first; i<=last; i++){
+            if(i%2 == 0)
+                System.out.println(i);
+
         }
-        System.out.println(cout);
     }
 }

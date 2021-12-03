@@ -1,3 +1,5 @@
+package forloop;
+
 import java.util.Scanner;
 
 public class newlinechar {
