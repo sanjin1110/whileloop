@@ -9,7 +9,15 @@ public class CheckPalindrome {
         int num = sc.nextInt();
         checkPalin(num);
     }
-    public static void checkPalin(int num){
+    public static void checkPalin(int num1){
+        int rem = num1%10;
+        int quot = num1/10;
+        int result = rem*10+quot;
+        if (num1==result){
+            System.out.println("Palindrome number");
+        }
+        else
+            System.out.println("Not Palindrome");
 
 
     }

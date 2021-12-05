@@ -15,6 +15,7 @@ public class SimpleInterest {
         System.out.println("the simple interest is : "+result);
     }
     public static float simpleInterest(float principle,float rate,float time){  //returntype
+
         return (principle*time*rate)/100;
     }
 }
