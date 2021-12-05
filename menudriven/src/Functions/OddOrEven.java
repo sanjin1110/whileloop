@@ -9,6 +9,7 @@ public class OddOrEven {
         int num = sc.nextInt();
         String result = oddEven(num);
         System.out.println(result);
+        sc.close();
     }
 
     public static  String oddEven(int num) {

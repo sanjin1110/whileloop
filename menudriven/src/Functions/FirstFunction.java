@@ -16,6 +16,7 @@ public class FirstFunction {
         int third = sc.nextInt();
         int result = addThreeNumber(first,second,third);
         System.out.println("The sum is : "+result);
+        sc.close();
     }
 
     public static int addThreeNumber(int first,int second, int third){

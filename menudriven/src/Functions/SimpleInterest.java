@@ -13,6 +13,7 @@ public class SimpleInterest {
         float rate = sc.nextFloat();
         float result = simpleInterest(principle,time,rate);
         System.out.println("the simple interest is : "+result);
+        sc.close();
     }
     public static float simpleInterest(float principle,float rate,float time){  //returntype
 

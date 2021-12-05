@@ -97,6 +97,7 @@ public class AtmLookalike {
                 ch = sc.next().toLowerCase().charAt(0);
             }
         }while (ch =='y');
+        sc.close();
 
     }
 }

@@ -8,6 +8,7 @@ public class CheckPalindrome {
         System.out.print("Enter any number : ");
         int num = sc.nextInt();
         checkPalin(num);
+        sc.close();
     }
     public static void checkPalin(int num1){
         int rem = num1%10;
@@ -21,4 +22,5 @@ public class CheckPalindrome {
 
 
     }
+
 }

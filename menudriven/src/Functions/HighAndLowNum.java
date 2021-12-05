@@ -12,7 +12,7 @@ public class HighAndLowNum {
         System.out.print("enter 3rd number : ");
         int third = sc.nextInt();
         highLow(first,second,third);
-
+        sc.close();
     }
     public static void highLow(int first, int second, int third){
         if (first>second && first>third)

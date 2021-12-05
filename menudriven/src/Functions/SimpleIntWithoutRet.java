@@ -12,6 +12,7 @@ public class SimpleIntWithoutRet {
         System.out.print("Enter rate : ");
         float rate = sc.nextFloat();
         simpleInterest(principle,time,rate);
+        sc.close();
     }
     public static void simpleInterest(float principle,float rate,float time){  //returntype
         float result = (principle*time*rate)/100;
