@@ -6,7 +6,7 @@ public class MultiplyTwoNum extends JFrame implements ActionListener {
     JTextField ent1;
     JTextField ent2;
     JButton mul;
-    JLabel res;
+    JTextField res;
 
 
 
@@ -21,15 +21,16 @@ public class MultiplyTwoNum extends JFrame implements ActionListener {
         add(ent1);
 
         ent2 = new JTextField();
-        ent2.setBounds(30,60,100,20);
+        ent2.setBounds(30,90,100,20);
         add(ent2);
 
         mul = new JButton("*");
-        mul.setBounds(30,90,60,20);
+        mul.setBounds(30,60,60,20);
         add(mul);
         mul.addActionListener(this);
 
-        res = new JLabel("RESULT:");
+        res = new JTextField("");
+        res.disable();
         res.setBounds(30,120,100,20);
         add(res);
 
