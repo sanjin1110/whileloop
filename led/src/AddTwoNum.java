@@ -13,24 +13,29 @@ public class AddTwoNum extends JFrame implements ActionListener{
         setResizable(false);
 
 
+
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setBounds(500,500,500,500);
         ent1 = new JTextField();
         ent1.setBounds(30,30,100,20);
         add(ent1);
+
         ent2 = new JTextField();
         ent2.setBounds(30,60,100,20);
         add(ent2);
 
-        additioni = new JButton("Add");
-        additioni.setBounds(30,90,80,20);
-        add(additioni);
-        additioni.addActionListener(this);
-        sum = new JLabel("");
-        sum.setBounds(90,90,80,20);
+        sum = new JLabel("Result : ");
+        sum.setBounds(30,120,80,20);
         add(sum);
-        setLayout(null);
 
+        additioni = new JButton("+");
+        additioni.setBounds(30,90,60,20);
+        add(additioni);
+
+        additioni.addActionListener(this);
+
+
+        setLayout(null);
         setVisible(true);
 
     }
@@ -53,6 +58,7 @@ public class AddTwoNum extends JFrame implements ActionListener{
 
 
     public static void main(String[] args){
+
         AddTwoNum addTwoNum = new AddTwoNum();
     }
 
