@@ -73,6 +73,7 @@ public class BodyMassIndex extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
+
         BodyMassIndex BodyMassIndex = new BodyMassIndex();
     }
 }

@@ -75,6 +75,7 @@ public class VolumeOfCuboid extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
+
         VolumeOfCuboid VolumeOfCuboid = new VolumeOfCuboid();
     }
 }

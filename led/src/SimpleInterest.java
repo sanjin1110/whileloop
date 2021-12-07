@@ -71,11 +71,10 @@ public class SimpleInterest extends JFrame implements ActionListener {
             result.setText(String.valueOf(re));
         }
 
-
-
     }
 
     public static void main(String[] args) {
+
         SimpleInterest SimpleInterest = new SimpleInterest();
     }
 }
