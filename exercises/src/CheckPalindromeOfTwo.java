@@ -15,6 +15,8 @@ public class CheckPalindromeOfTwo {
             System.out.print(num+" is a palindrome.");
         else
             System.out.print(num+"is not palindrome.");
+
+        sc.close();
 //        alternate method:
 //        int num;
 //

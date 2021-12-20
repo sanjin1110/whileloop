@@ -59,7 +59,7 @@ public class AddTwoNum extends JFrame implements ActionListener{
 
     public static void main(String[] args){
 
-        AddTwoNum addTwoNum = new AddTwoNum();
+        new AddTwoNum();
     }
 
 

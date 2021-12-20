@@ -49,7 +49,7 @@ public class SubTwoNum extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        SubTwoNum SubYwoNum = new SubTwoNum();
+        new SubTwoNum();
 
     }
 }

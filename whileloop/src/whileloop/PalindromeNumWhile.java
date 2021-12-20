@@ -23,6 +23,6 @@ public class PalindromeNumWhile {
         }
         else
             System.out.print("Not palindrome");
-
+        sc.close();
     }
 }

@@ -75,6 +75,6 @@ public class SimpleInterest extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
 
-        SimpleInterest SimpleInterest = new SimpleInterest();
+        new SimpleInterest();
     }
 }

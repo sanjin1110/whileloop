@@ -45,19 +45,9 @@ public class VolumeOfCuboid extends JFrame implements ActionListener {
         result.setBounds(30,150,60,20);
         add(result);
 
-
-
-
-
-
         setLayout(null);
         setVisible(true);
-
     }
-
-
-
-
     @Override
     public void actionPerformed(ActionEvent e) {
         float l = Float.parseFloat(ent1.getText());
@@ -69,14 +59,10 @@ public class VolumeOfCuboid extends JFrame implements ActionListener {
             re = l*b*h;
             result.setText(String.valueOf(re));
         }
-
-
-
     }
-
     public static void main(String[] args) {
 
-        VolumeOfCuboid VolumeOfCuboid = new VolumeOfCuboid();
+        new VolumeOfCuboid();
     }
 }
 

@@ -7,9 +7,10 @@ public class FibonacciSeries {
         Scanner sc = new Scanner(System.in);
         System.out.println("ENTER NUMBER : ");
         int num = sc.nextInt();
-        int fibo0 = 0;
-        int fibo1 = 1;
+        // int fibo0 = 0;
+        // int fibo1 = 1;
         int num1 = 1;
+        int fibo =0;
         while (num>0){
             fibo = fibo+num1;
             num++;
@@ -17,5 +18,5 @@ public class FibonacciSeries {
 
         }
         System.out.println(fibo);
-    }
+    sc.close();}
 }

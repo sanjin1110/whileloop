@@ -53,6 +53,6 @@ public class AreaOfCircle extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
 
-        AreaOfCircle AreaOfCircle = new AreaOfCircle();
+        new AreaOfCircle();
     }
 }

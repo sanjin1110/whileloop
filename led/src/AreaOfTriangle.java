@@ -64,6 +64,6 @@ public class AreaOfTriangle extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        AreaOfTriangle area = new AreaOfTriangle();
+        new AreaOfTriangle();
     }
 }

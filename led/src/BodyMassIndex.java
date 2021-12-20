@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.text.DecimalFormat;
+// import java.text.DecimalFormat;
 
 public class BodyMassIndex extends JFrame implements ActionListener {
     JTextField ent1;
@@ -74,6 +74,6 @@ public class BodyMassIndex extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
 
-        BodyMassIndex BodyMassIndex = new BodyMassIndex();
+        new BodyMassIndex();
     }
 }

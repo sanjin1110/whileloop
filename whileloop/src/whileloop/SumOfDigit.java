@@ -14,5 +14,6 @@ public class SumOfDigit {
             num = num/10;
         }
         System.out.println("The sum of digit of given number is "+ sum);
+        sc.close();
     }
 }

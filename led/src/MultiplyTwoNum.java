@@ -30,7 +30,7 @@ public class MultiplyTwoNum extends JFrame implements ActionListener {
         mul.addActionListener(this);
 
         res = new JTextField("");
-        res.disable();
+        // res.disable();
         res.setBounds(30,120,100,20);
         add(res);
 
@@ -53,6 +53,6 @@ public class MultiplyTwoNum extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        MultiplyTwoNum MultiplyTwoNum = new MultiplyTwoNum();
+        new MultiplyTwoNum();
     }
 }

@@ -47,6 +47,6 @@ public class DivideTwoNum extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        DivideTwoNum DivideTwoNum = new DivideTwoNum();
+        new DivideTwoNum();
     }
 }
