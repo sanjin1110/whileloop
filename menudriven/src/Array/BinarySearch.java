@@ -18,6 +18,7 @@ public class BinarySearch {
         System.out.print("Enter search value : ");
         int searchValue = sc.nextInt();
         int a = binarySearch(arr, searchValue);
+
         System.out.println("value found at index " + a);
     }
 

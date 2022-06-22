@@ -1,23 +1,11 @@
 package Array;
-
-
-
 import java.util.Scanner;
-
-
-
 public class BinarySearchasas {
     public static void main(String[] args) {
-
-
-
-
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of array : ");
         int size = sc.nextInt();
         int[] arr = new int[size];
-
-
 
         for(int i=0; i<arr.length; i++){
             System.out.print("Enter value : ");
@@ -28,14 +16,10 @@ public class BinarySearchasas {
         binarySearch(arr,searchValue);
     }
 
-
-
     public static void binarySearch(int[] arr,int searchValue) {
         int first = 0;
         int last = arr.length-1;
         boolean flag = false;
-
-
 
         while(first<=last){
             int mid = (first+last)/2;
@@ -49,21 +33,11 @@ public class BinarySearchasas {
             else {
                 last = mid-1;
             }
-
-
-
         }
         if(flag){
             System.out.println("found");
         }
         else
             System.out.println("not found");
-
-
-
-
     }
-
-
-
 }

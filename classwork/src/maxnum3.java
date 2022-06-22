@@ -21,5 +21,8 @@ public class maxnum3 {
         } else if (third>first && third > second) {
             System.out.print(third + " is maximum.");
         }
+        else{
+            System.out.println("Enter different number.");
+        }
     }
 }

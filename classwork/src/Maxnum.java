@@ -18,6 +18,7 @@ public class Maxnum {
             System.out.print(second + " is maximum.");
         } else if (first == second) {
             System.out.print("Both are equal");
-        }
+        } else System.out.println("INVALID INPUT");
+        sc.close();
     }
 }

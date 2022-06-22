@@ -10,11 +10,13 @@ public class VowelConsonant {
 
         System.out.print("Enter a character: ");
         ch = toLowerCase(sc.next().charAt(0));
+
         if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
             System.out.print("Vowel");
         } else {
             System.out.print("Consonant");
         }
+
 
     }
 }
